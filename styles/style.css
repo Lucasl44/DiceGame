@@ -1,0 +1,36 @@
+* {
+  background-color: beige;
+}
+
+#buttons {
+  text-align: center;
+  width: 100%;
+}
+#rollDice {
+  margin-bottom: 25px;
+  background-color: peachpuff;
+  width: 40%;
+  height: 40px;
+}
+#restart {
+  margin-bottom: 25px;
+  background-color: peachpuff;
+  margin: auto;
+  width: 40%;
+  height: 40px;
+}
+#imageDiv {
+  margin-top: 25px;
+  width: 100%;
+}
+#diceImage {
+  max-width: 25%;
+  max-height: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#scoreSection {
+}
+.center {
+  text-align: center;
+}

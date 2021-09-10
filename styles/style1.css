@@ -1,0 +1,47 @@
+* {
+  background-color: beige;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+#buttons {
+  text-align: center;
+  width: 100%;
+}
+#rollDice {
+  width: 40%;
+  margin-bottom: 25px;
+  background-color: peachpuff;
+}
+#restart {
+  width: 40%;
+  margin-bottom: 25px;
+  background-color: peachpuff;
+}
+#hold {
+  width: 40%;
+  margin-bottom: 25px;
+  background-color: peachpuff;
+}
+#scores {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  border: 2px solid black;
+}
+.scoreSection {
+  min-width: 50%;
+}
+#imageDiv {
+  min-width: 100%;
+  text-align: center;
+}
+
+#diceImage {
+  max-width: 25%;
+  max-height: 25%;
+}

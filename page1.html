@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Two Player Dice Game</title>
+    <link rel="stylesheet" href="styles/style1.css">
+</head>
+<body>
+    <h1>Two Player Dice Game</h1>
+    <div>
+        <h3>Rules</h3>
+        <ul>
+            <li>Click Roll Dice or restart to begin</li>
+            <li>Player 1 goes first and roles as many times as they want</li>
+            <li>They can choose to hold and pass to the other team at any time</li>
+            <li>If you get a one, score reset and player changes</li>
+            <li>First to 20 wins</li>
+        </ul>
+    </div>
+    <div>
+        <h3 id="winner"></h3>
+    </div>
+    <div id="imageDiv">
+        <img id="diceImage" src="">
+    </div>
+    <div id="buttons">
+        <div>
+            <button type="text" id="rollDice">P1 Roll Dice</button>
+        </div>
+        <div>
+            <button type="text" id="hold">Hold</button>
+        </div>
+        <div>    
+            <button type="text" id="restart">Restart</button>    
+        </div>
+    </div>
+    <div id="scores">
+        <p class="scoreSection">Player 1</p>
+        <p class="scoreSection">Player 2</p>
+        <p class="scoreSection">P1 Current Roll Value</p>
+        <p class="scoreSection">P2 Current Roll Value</p>
+        <p class="scoreSection" id="p1CRV">0</p>
+        <p class="scoreSection" id="p2CRV">0</p>
+        <p class="scoreSection">P1 Total Score</p>
+        <p class="scoreSection">P2 Total Score</p>
+        <p class="scoreSection" id="p1TS">0</p>
+        <p class="scoreSection" id="p2TS">0</p>
+        <p class="scoreSection">P1 Total Rolls</p>
+        <p class="scoreSection">P2 Total Rolls</p>
+        <p class="scoreSection" id="p1TR">0</p>
+        <p class="scoreSection" id="p2TR">0</p>
+    </div>
+    <script src="apps/app1.js"></script>
+</body>
+</html>

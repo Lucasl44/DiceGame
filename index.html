@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Dice Game</title>
+</head>
+<body>
+    <h1 class="center">Dice Game</h1>
+    <a href="page1.html">Two Player</a>
+    <div>
+        <h3>Rules</h3>
+        <ul>
+            <li>Roll to begin.</li>
+            <li>Keep rolling until 20 total points.</li>
+            <li>Rolling a 1 is a instant loss.</li>
+            <li>Have fun.</li>
+        </ul>
+    </div>
+    <div>
+        <h2 id="winner" class="center">You won</h2>
+    </div>
+    <div>
+        <h2 id="loser" class="center">You lost</h2>
+        </div>
+    <div id="buttons">
+        <button type="text" id="rollDice">Roll Dice</button>
+        <button type="text" id="restart">Restart</button>
+    </div>
+    <div id="imageDiv">
+        <img id="diceImage" src="">
+    </div>
+    <div class="center" id="scoreSection">
+        <div>
+            <p>Current roll value</p>
+            <p id="currentRollValue">0</p>
+        </div>
+        <div>
+            <p>total score</p>
+            <p id="totalScore">0</p>
+            <p>total rolls</p>
+            <p id="currentRoll">0</p>
+        </div>
+    </div>
+    <script src="apps/app.js"></script>
+</body>
+</html>
